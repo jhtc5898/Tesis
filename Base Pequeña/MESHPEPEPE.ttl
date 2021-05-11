@@ -1,0 +1,142 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix umls: <http://bioportal.bioontology.org/ontologies/umls/> .
+
+
+<http://purl.bioontology.org/ontology/MESH/>
+    a owl:Ontology ;
+    rdfs:comment "RDF Version of the UMLS ontology MSH; converted with the UMLS2RDF tool (https://github.com/ncbo/umls2rdf), developed by the NCBO project." ;
+    rdfs:label "MSH" ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> ;
+    owl:versionInfo "2020ab" .
+
+<http://purl.bioontology.org/ontology/MESH/C416025> a owl:Class ;
+	skos:prefLabel """panpal"""@en ;
+	skos:notation """C416025"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/mapped_to> <http://purl.bioontology.org/ontology/MESH/D001535> ;
+	<http://purl.bioontology.org/ontology/MESH/mapped_to> <http://purl.bioontology.org/ontology/MESH/D004338> ;
+	<http://purl.bioontology.org/ontology/MESH/mapped_to> <http://purl.bioontology.org/ontology/MESH/D011729> ;
+	<http://purl.bioontology.org/ontology/MESH/mapped_to> <http://purl.bioontology.org/ontology/MESH/D014282> ;
+	<http://purl.bioontology.org/ontology/MESH/TH> """NLM (2000)"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/TERMUI> """T429457"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/RN> """0"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/SC> """1"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/HM> """D001535"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/HM> """D004338"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/HM> """D011729"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/HM> """D014282"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/MDA> """20001122"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/SRC> """Ceska Slov Farm 2000 Jan;49(1):37-40"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/FR> """6"""^^xsd:string ;
+	umls:cui """C0962075"""^^xsd:string ;
+	umls:tui """T109"""^^xsd:string ;
+	umls:tui """T121"""^^xsd:string ;
+	umls:hasSTY <http://purl.bioontology.org/ontology/STY/T109> ;
+	umls:hasSTY <http://purl.bioontology.org/ontology/STY/T121> ;
+ .
+
+<http://purl.bioontology.org/ontology/MESH/D013895> a owl:Class ;
+	skos:prefLabel """Thoracic Arteries"""@en ;
+	skos:notation """D013895"""^^xsd:string ;
+	skos:altLabel """Thoracic Artery"""@en , """Arteries, Thoracic"""@en , """Artery, Thoracic"""@en ;
+	skos:definition """Arteries originating from the subclavian or axillary arteries and distributing to the anterior thoracic wall, mediastinal structures, diaphragm, pectoral muscles, mammary gland and the axillary aspect of the chest wall."""@en ;
+	rdfs:subClassOf <http://purl.bioontology.org/ontology/MESH/D001158> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000002> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000033> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D001011> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D001160> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D001366> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D001488> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D001916> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D016122> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D001981> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D002339> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D002445> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D002536> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D003331> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000166> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000196> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000201> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D005263> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D006499> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D007083> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D008438> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D008576> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D008638> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000378> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000382> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D009880> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000502> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000503> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D011150> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D011651> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000528> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D012077> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D012161> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D013157> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D013348> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000601> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000637> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000648> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D014469> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D014711> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000737> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D016909> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D017534> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D017535> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000821> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000473> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D019842> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D000077426> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D055988> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D019074> ;
+	<http://purl.bioontology.org/ontology/MESH/SIB> <http://purl.bioontology.org/ontology/MESH/D024405> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000187> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000254> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000293> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000276> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000294> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000469> ;
+	<http://purl.bioontology.org/ontology/MESH/QB> <http://purl.bioontology.org/ontology/MESH/Q000000981> ;
+	<http://purl.bioontology.org/ontology/MESH/TERMUI> """T040761"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/TERMUI> """T040761"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/TH> """NLM (1966)"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/TERMUI> """T040761"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/DX> """19660101"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/MMR> """20180630"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/MN> """A07.015.114.891"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/AQL> """AB AH CH CY DE DG EM EN GD IM IN IR ME MI PA PH PP PS RE SU TR UL VI"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/DC> """1"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/MDA> """19990101"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/TERMUI> """T040761"""^^xsd:string ;
+	umls:cui """C0039976"""^^xsd:string ;
+	umls:tui """T023"""^^xsd:string ;
+	umls:hasSTY <http://purl.bioontology.org/ontology/STY/T023> ;
+ .
+
+<http://purl.bioontology.org/ontology/MESH/C416027> a owl:Class ;
+	skos:prefLabel """apolipoprotein b-17"""@en ;
+	skos:notation """C416027"""^^xsd:string ;
+	skos:altLabel """apo B-17"""@en ;
+	<http://purl.bioontology.org/ontology/MESH/mapped_to> <http://purl.bioontology.org/ontology/MESH/D001055> ;
+	<http://purl.bioontology.org/ontology/MESH/TH> """NLM (2000)"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/TERMUI> """T429467"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/TH> """NLM (2000)"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/TERMUI> """T429466"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/RN> """0"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/SC> """1"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/HM> """D001055"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/II> """D011994"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/MDA> """20001122"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/MMR> """20020123"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/SOS> """a recombinant, truncated apolipoprotein B"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/SRC> """J Lipid Res 2000 Sep;41(9):1419-27"""^^xsd:string ;
+	<http://purl.bioontology.org/ontology/MESH/FR> """5"""^^xsd:string ;
+	umls:cui """C0962077"""^^xsd:string ;
+	umls:tui """T116"""^^xsd:string ;
+	umls:tui """T123"""^^xsd:string ;
+	umls:hasSTY <http://purl.bioontology.org/ontology/STY/T116> ;
+	umls:hasSTY <http://purl.bioontology.org/ontology/STY/T123> ;
+ .
