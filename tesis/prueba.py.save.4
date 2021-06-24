@@ -1,0 +1,11 @@
+print("Resultado")
+from pyscopus import Scopus
+key = '0387c7142db3254ed53c09c131ecf8c0'
+scopus = Scopus(key)
+search_df = scopus.search("KEY(interdisciplinary collaboration)", count=20)
+#print(search_df)
+pub_info = scopus.retrieve_abstract('84905286162')
+#print(
+search_df = scopus.search("ALL(medicina)", count=500)
+print(search_df.keys())
+print(search_df['full_text'])
