@@ -1,0 +1,4 @@
+Collecting en_core_web_sm==2.1.0
+  Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz (11.1 MB)
+[38;5;2m✔ Download and installation successful[0m
+You can now load the model via spacy.load('en_core_web_sm')
