@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-09T16:10:39.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="NnSBIEhG_UAvEzQo2WCP" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-09T16:21:36.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="WCYxvUJ8oojC-U_QuC-w" version="14.9.5" type="github">
   <diagram id="ShPjT7Z92uzGkX2XcML3" name="Page-1">
-    <mxGraphModel dx="383" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,6 +44,27 @@
         </mxCell>
         <mxCell id="n81QeVkMvqfCMQ-kmEA4-12" value="Evaluación De La Recomendaciones" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="360" y="890" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-15" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-17" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-18" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="450" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-19" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="560" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-20" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="670" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-21" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="780" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-22" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="890" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
