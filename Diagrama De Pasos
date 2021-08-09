@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-08-08T16:59:23.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" version="14.9.4" etag="RULz_aCmXRz_lEHs2PU8" type="github"><diagram id="ShPjT7Z92uzGkX2XcML3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-09T16:10:39.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="NnSBIEhG_UAvEzQo2WCP" version="14.9.5" type="github">
+  <diagram id="ShPjT7Z92uzGkX2XcML3" name="Page-1">
+    <mxGraphModel dx="383" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Times New Roman;" edge="1" parent="1" source="n81QeVkMvqfCMQ-kmEA4-1" target="n81QeVkMvqfCMQ-kmEA4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-1" value="Recoleccion De Datos" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;" edge="1" parent="1" source="n81QeVkMvqfCMQ-kmEA4-2" target="n81QeVkMvqfCMQ-kmEA4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-2" value="Preprocesamiento De Datos" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;" edge="1" parent="1" source="n81QeVkMvqfCMQ-kmEA4-4" target="n81QeVkMvqfCMQ-kmEA4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-4" value="Reingeniería de Elementos No Ontológicos" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;" edge="1" parent="1" source="n81QeVkMvqfCMQ-kmEA4-5" target="n81QeVkMvqfCMQ-kmEA4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-5" value="Integración De Elementos Ontológicos" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="360" y="560" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;" edge="1" parent="1" source="n81QeVkMvqfCMQ-kmEA4-6" target="n81QeVkMvqfCMQ-kmEA4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-6" value="Descubrimiento Del Conocimiento Atreves De Algoritmos Inteligentes" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="360" y="670" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Times New Roman;" edge="1" parent="1" source="n81QeVkMvqfCMQ-kmEA4-10" target="n81QeVkMvqfCMQ-kmEA4-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-10" value="Recomendaciones Por Algoritmos Inteligentes&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="360" y="780" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n81QeVkMvqfCMQ-kmEA4-12" value="Evaluación De La Recomendaciones" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="360" y="890" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
